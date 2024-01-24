@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olaf the Cat</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vendor.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,15 +13,31 @@
   <body>
     <header>
       <nav>
+        <div class="logo-container">
+          <img src="images/olaf-logo.svg" alt="Olaf the Cat Logo" class="logo-navbar">
+          <h1>Olafo el gato</h1>
+        </div>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href="#story">Historia</a></li>
+          <li><a href="#traits">Características</a></li>
+          <li><a href="#food">Alimentación</a></li>
+          <li><a href="#training">Entrenamiento</a></li>
         </ul>
       </nav>
-      <h1>Olafo el gato</h1>
-      <p>la pagina del olafio</p>
+      <div class="header-content">
+        <h2>¡Hola! Mi nombre es Olaf<br> (pero me dicen Olafo)</h2>
+        <p>Soy un gatito siamés y tengo dos años. Cuando era bebé tuve una enfermedad muy grave (PIF felino), pero me rescató una fundación y ahora tengo un tutor que me quiere y vivo muy feliz.</p>
+        <div class="header-button-container">
+          <a href="https://www.instagram.com/kevindelosvientos/" class="btn" target="_blank">
+            Ir a mi Instagram
+            <img src="images/instagram_icon.svg" alt="Instagram Icon">
+          </a>
+          <a href="https://www.instagram.com/fundacionalmadegatocl/" class="btn" target="_blank">
+            Ir al instagram de la fundación
+            <img src="images/instagram_icon.svg" alt="Instagram Icon">
+          </a>
+        </div>
+      </div>
     </header>
     <main>
       <section id="story">

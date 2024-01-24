@@ -1,11 +1,76 @@
 html {
-
+  scroll-behavior: smooth;
 }
-
-p, span {
-  font-family: 'Roboto';
+body {
+  margin: 0;
 }
-
+a, label, p, span {
+  font-family: 'Roboto', sans-serif;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
+}
+header {
+  background-image: url(images/hero_photo.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 0 5%;
+  position: relative;
+}
+section {
+  padding: 5%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5vh 0;
+
+}
+nav h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin: 0;
+}
+nav ul {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+nav a {
+  color: #ffffff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav a:hover {
+  background-color: #5b9cc2;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.logo-container {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+.logo-navbar {
+  height: 5rem;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 33%;
+}
+.header-content h2 {
+  color: #ffffff;
+  font-size: 2.25rem;
+  line-height: 1.5;
+}
+.header-content p {
+  color: #ffffff;
+  font-size: 1.15rem;
 }
