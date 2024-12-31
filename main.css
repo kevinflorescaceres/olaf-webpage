@@ -10,6 +10,9 @@ a, label, p, span {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
+h2 {
+  font-size: 2.25rem;
+}
 header {
   background-image: url(images/hero_photo.jpg);
   background-repeat: no-repeat; 
@@ -20,7 +23,7 @@ header {
   position: relative;
 }
 section {
-  padding: 5%;
+  margin: 5%;
 }
 nav {
   display: flex;
@@ -73,4 +76,17 @@ nav a:hover {
 .header-content p {
   color: #ffffff;
   font-size: 1.15rem;
+}
+.story-container {
+  display: block;
+
+  word-wrap: break-word;
+}
+#story aside {
+  border: 1px solid;
+  border-radius: 1rem;
+  float: right;
+  padding: 1rem;
+  width: 30%;
+  word-wrap: break-word;
 }
